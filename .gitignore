@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- PyInstaller ----
+build/
+dist/
+*.spec.bak
+
+# ---- 本地运行产物（不应进入仓库）----
+*.exe
+config.json
+presence.json
+crash.log
+app.pid
+
+# ---- 内部交接文档：含本机绝对路径与薪资示例，不公开 ----
+EarnTicker_项目交接.md
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

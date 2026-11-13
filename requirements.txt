@@ -1,0 +1,7 @@
+# EarnTicker 运行依赖
+# tkinter 为 Python 标准库自带（Windows 官方安装包默认包含），无需在此声明
+pystray>=0.19.5
+Pillow>=10.0.0
+
+# 仅打包 exe 时需要：
+# pyinstaller>=6.0
